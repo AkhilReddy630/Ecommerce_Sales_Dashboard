@@ -14,7 +14,7 @@ This project focuses on analyzing an e-commerce dataset to uncover key sales, pr
 
  👨‍💻 My Role & Solution
 
-As the Data Analyst, I handled:
+ As the Data Analyst, I handled:
 
  Data cleaning & modeling
  DAX measure creation
@@ -79,27 +79,27 @@ The dashboard is designed to be clean, intuitive, and decision-focused.
   High-Profit Categories
 
  Clothing generates more profit than Electronics & Furniture.
-  ✔ Recommendation: Promote and bundle high-margin clothing items.
+ ✔ Recommendation: Promote and bundle high-margin clothing items.
 
   Regional Revenue
 
  Maharashtra and Madhya Pradesh lead in revenue.
-  ✔ Recommendation: Boost marketing efforts in low-performing regions and optimize stock where demand is high.
+ ✔ Recommendation: Boost marketing efforts in low-performing regions and optimize stock where demand is high.
 
  👥 Key Customers
 
  A small number of customers contribute significantly to revenue.
-  ✔ Recommendation: Implement loyalty programs & personalized offers.
+ ✔ Recommendation: Implement loyalty programs & personalized offers.
 
   Payment Preferences
 
  COD and UPI are the most used payment methods.
-  ✔ Recommendation: Streamline these modes to reduce friction.
+ ✔ Recommendation: Streamline these modes to reduce friction.
 
  📅 Seasonal Trends
 
  Highest profits appear in January and November.
-  ✔ Recommendation: Align campaigns and inventory with seasonal peaks.
+ ✔ Recommendation: Align campaigns and inventory with seasonal peaks.
 
 
 
