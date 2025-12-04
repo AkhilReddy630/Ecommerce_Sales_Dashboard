@@ -1,77 +1,120 @@
 # Ecommerce_Sales_Dashboard
 
 
+ 📌 Overview
 
- E-Commerce Sales Dashboard – Power BI
+This project focuses on analyzing an e-commerce dataset to uncover key sales, profit, and customer behavior trends. Using Power BI, I developed an interactive dashboard that helps businesses:
 
- Overview
-
-In this project, I analyzed an e-commerce dataset to identify key sales and profit trends. By examining product performance, regional revenue, customer behavior, and payment preferences, I generated actionable insights to help businesses:
-
- Identify high-profit product categories
- Explore regional sales opportunities
- Improve customer targeting and retention
- Optimize pricing, promotions, and inventory planning
+ 📈 Identify high-profit product categories
+ 🌍 Explore regional sales opportunities
+ 👥 Improve customer targeting and retention
+ 🏷️ Optimize pricing, promotions, and inventory planning
 
 
 
- My Role & Solution
+ 👨‍💻 My Role & Solution
 
-As the Data Analyst for this project, I handled data preparation, analysis, and visualization using Power BI. My goal was to create an interactive dashboard that supports data-driven decision making.
+As the Data Analyst, I handled:
 
- 1. Data Preparation & Validation
+ Data cleaning & modeling
+ DAX measure creation
+ Dashboard design
+ Automated reporting setup
+
+The goal was to build an interactive and insightful Power BI dashboard that supports fast, data-driven decision-making.
+
+
+
+ 🗂️ Data Preparation & Validation
 
  Imported and cleaned a Kaggle e-commerce dataset
  Verified data types, relationships, and category consistency
- Built a robust Power BI data model for efficient analysis
-
- 2. Developed Key DAX Measures
-
- Created measures to track critical business metrics:
-
- Total Sales = `SUM(Details[Amount])`
- Total Profit = `SUM(Details[Profit])`
- Total Quantity = `SUM(Details[Quantity])`
- Average Order Value (AOV) = `[Total Sales] / DISTINCTCOUNT(Details[OrderID])`
-
-These measures enabled interactive reporting and KPI tracking.
-
- 3. Dashboard Design
-
- Designed an interactive Power BI dashboard featuring:
-
- KPI Cards: Sales, Profit, Quantity, AOV
- Monthly Profit Trend
- Profit by Sub-Category
- Quantity by Category
- Sales by Customer and State
- Payment Mode Breakdown
-
-Ensured the dashboard is interactive and user-friendly, allowing stakeholders to explore insights with dynamic filters and visuals.
-
- 4. Automated Reporting
-
-Implemented automated reporting so that visuals refresh with a single click, eliminating repetitive Excel tasks and saving time.
+ Built a structured Power BI data model for efficient analysis
 
 
 
- Insights & Recommendations
+ 🧮 Key DAX Measures
 
- High-Profit Categories: Clothing generates higher profit than electronics and furniture. I recommended promoting these items to maximize margin.
- Regional Revenue: Maharashtra and Madhya Pradesh lead in revenue. I suggested focusing marketing on lower-performing states and optimizing inventory for high-demand regions.
- Key Customers: A small group of customers drives a large share of sales. I recommended loyalty programs and personalized offers to retain these high-value customers.
- Payment Preferences: COD and UPI are the most popular payment options. Streamlining these methods can improve customer satisfaction.
- Seasonal Trends: Profits peak in January and November. I advised aligning inventory and campaigns with seasonal demand.
+These DAX measures powered KPI tracking across visuals:
+
+DAX
+Total Sales = SUM(Details[Amount])
+
+Total Profit = SUM(Details[Profit])
+
+Total Quantity = SUM(Details[Quantity])
+
+Average Order Value (AOV) = [Total Sales] / DISTINCTCOUNT(Details[OrderID])
 
 
 
- Business Impact
 
-Through this project, I helped demonstrate how businesses can turn raw data into actionable insights:
+ 📊 Dashboard Design
 
- Improved decision-making with automated, interactive visuals
- Clear identification of profitable categories, regions, and customers
- Better planning for marketing, inventory, and seasonal campaigns
- Reusable reporting solution requiring minimal manual effort
+The dashboard includes:
 
-By combining data cleaning, DAX analysis, and interactive Power BI visuals, I showcased a practical, data-driven approach to e-commerce decision making.
+ KPI Cards → Sales, Profit, Quantity, AOV
+ 📅 Monthly Profit Trend
+ 📦 Profit by Sub-Category
+ 📚 Quantity by Category
+ 👤 Sales by Customer
+ 🗺️ Sales by State
+ 💳 Payment Mode Breakdown
+ 🔍 Interactive filters for dynamic exploration
+
+The dashboard is designed to be clean, intuitive, and decision-focused.
+
+
+
+ 🔄 Automated Reporting
+
+ Enabled one-click refresh for the full dashboard
+ Eliminated repetitive Excel-based manual reporting
+ Ensured consistency and time savings
+
+
+
+ 📥 Insights & Recommendations
+
+  High-Profit Categories
+
+ Clothing generates more profit than Electronics & Furniture.
+  ✔ Recommendation: Promote and bundle high-margin clothing items.
+
+  Regional Revenue
+
+ Maharashtra and Madhya Pradesh lead in revenue.
+  ✔ Recommendation: Boost marketing efforts in low-performing regions and optimize stock where demand is high.
+
+ 👥 Key Customers
+
+ A small number of customers contribute significantly to revenue.
+  ✔ Recommendation: Implement loyalty programs & personalized offers.
+
+  Payment Preferences
+
+ COD and UPI are the most used payment methods.
+  ✔ Recommendation: Streamline these modes to reduce friction.
+
+ 📅 Seasonal Trends
+
+ Highest profits appear in January and November.
+  ✔ Recommendation: Align campaigns and inventory with seasonal peaks.
+
+
+
+ 🚀 Business Impact
+
+This project demonstrates how raw data can drive strategy through:
+
+ Better decision-making with automated visual insights
+ Clear identification of top categories, regions, and customers
+ Improved planning for marketing, inventory, and seasonal cycles
+ A reusable reporting system requiring minimal manual updates
+
+By combining data cleaning, DAX, and interactive Power BI visuals, this project showcases a practical, analytics-driven approach to e-commerce optimization.
+
+
+
+
+
