@@ -27,7 +27,7 @@ As the Data Analyst for this project, I handled data preparation, analysis, and 
 
  2. Developed Key DAX Measures
 
-I created measures to track critical business metrics:
+ Created measures to track critical business metrics:
 
  Total Sales = `SUM(Details[Amount])`
  Total Profit = `SUM(Details[Profit])`
@@ -38,7 +38,7 @@ These measures enabled interactive reporting and KPI tracking.
 
  3. Dashboard Design
 
-I designed an interactive Power BI dashboard featuring:
+ Designed an interactive Power BI dashboard featuring:
 
  KPI Cards: Sales, Profit, Quantity, AOV
  Monthly Profit Trend
@@ -47,11 +47,11 @@ I designed an interactive Power BI dashboard featuring:
  Sales by Customer and State
  Payment Mode Breakdown
 
-I ensured the dashboard is interactive and user-friendly, allowing stakeholders to explore insights with dynamic filters and visuals.
+Ensured the dashboard is interactive and user-friendly, allowing stakeholders to explore insights with dynamic filters and visuals.
 
  4. Automated Reporting
 
-I implemented automated reporting so that visuals refresh with a single click, eliminating repetitive Excel tasks and saving time.
+Implemented automated reporting so that visuals refresh with a single click, eliminating repetitive Excel tasks and saving time.
 
 
 
